@@ -35,6 +35,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 		}
 	}
 	
+	// Action openPhotoLibrary
 	@IBAction func openPhotoLibrary(sender: AnyObject) {
 		let picker = UIImagePickerController()
 		
