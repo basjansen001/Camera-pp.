@@ -19,44 +19,44 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 	
   // Use camera action
   @IBAction func useCamera(sender: AnyObject) {
-	let picker = UIImagePickerController()
+    let picker = UIImagePickerController()
 		
-	let sourceType = UIImagePickerControllerSourceType.Camera
+    let sourceType = UIImagePickerControllerSourceType.Camera
 		
-	if UIImagePickerController.isSourceTypeAvailable(sourceType) {
-		picker.sourceType = sourceType
+    if UIImagePickerController.isSourceTypeAvailable(sourceType) {
+      picker.sourceType = sourceType
 			
-		let frontCamera = UIImagePickerControllerCameraDevice.Front
+      let frontCamera = UIImagePickerControllerCameraDevice.Front
 			
-		if UIImagePickerController.isCameraDeviceAvailable(frontCamera) {
-			picker.cameraDevice = frontCamera
-			picker.delegate = self
-			self.presentViewController(picker, animated: true, completion: nil)
-		}
-	}
-}
+      if UIImagePickerController.isCameraDeviceAvailable(frontCamera) {
+        icker.cameraDevice = frontCamera
+	picker.delegate = self
+	self.presentViewController(picker, animated: true, completion: nil)
+      }
+     }
+  }
 	
   // Action openPhotoLibraryy
   @IBAction func openPhotoLibrary(sender: AnyObject) {
-	let picker = UIImagePickerController()
+    let picker = UIImagePickerController()
 		
-	let sourceType = UIImagePickerControllerSourceType.PhotoLibrary
-	if UIImagePickerController.isSourceTypeAvailable(sourceType) {
-		picker.sourceType = sourceType
-		picker.delegate = self
-		self.presentViewController(picker, animated: true, completion: nil)
-	}
- }
+    let sourceType = UIImagePickerControllerSourceType.PhotoLibrary
+    if UIImagePickerController.isSourceTypeAvailable(sourceType) {
+      picker.sourceType = sourceType
+      picker.delegate = self
+      self.presentViewController(picker, animated: true, completion: nil)
+    }
+  }
 	
   func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
-	let image = info[UIImagePickerControllerOriginalImage] as! UIImage
-	self.imageView.image = image
+    let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+    self.imageView.image = image
 		
-	picker.dismissViewControllerAnimated(true, completion: nil)
+    picker.dismissViewControllerAnimated(true, completion: nil)
   }
 	
   func imagePickerControllerDidCancel(picker: UIImagePickerController) {
-	picker.dismissViewControllerAnimated(true, completion: nil)
+    picker.dismissViewControllerAnimated(true, completion: nil)
   }
 }
 
