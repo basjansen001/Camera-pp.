@@ -17,6 +17,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 		super.viewDidLoad()
 	}
 	
+	// Use camera action
 	@IBAction func useCamera(sender: AnyObject) {
 		let picker = UIImagePickerController()
 		
