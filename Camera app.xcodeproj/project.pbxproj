@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7E77C05F1B11170C00439510 /* iosFundementtals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosFundementtals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E77C05F1B11170C00439510 /* Camera app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E77C0631B11170C00439510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E77C0641B11170C00439510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E77C0661B11170C00439510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E77C0691B11170C00439510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E77C06B1B11170C00439510 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7E77C06E1B11170C00439510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7E77C0741B11170C00439510 /* iosFundementtalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosFundementtalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E77C0741B11170C00439510 /* Camera appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Camera appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E77C0791B11170C00439510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E77C07A1B11170C00439510 /* iosFundementtalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosFundementtalsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +68,8 @@
 		7E77C0601B11170C00439510 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7E77C05F1B11170C00439510 /* iosFundementtals.app */,
-				7E77C0741B11170C00439510 /* iosFundementtalsTests.xctest */,
+				7E77C05F1B11170C00439510 /* Camera app.app */,
+				7E77C0741B11170C00439510 /* Camera appTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7E77C05E1B11170C00439510 /* iosFundementtals */ = {
+		7E77C05E1B11170C00439510 /* Camera app */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E77C07E1B11170C00439510 /* Build configuration list for PBXNativeTarget "iosFundementtals" */;
+			buildConfigurationList = 7E77C07E1B11170C00439510 /* Build configuration list for PBXNativeTarget "Camera app" */;
 			buildPhases = (
 				7E77C05B1B11170C00439510 /* Sources */,
 				7E77C05C1B11170C00439510 /* Frameworks */,
@@ -127,14 +127,14 @@
 			);
 			dependencies = (
 			);
-			name = iosFundementtals;
+			name = "Camera app";
 			productName = iosFundementtals;
-			productReference = 7E77C05F1B11170C00439510 /* iosFundementtals.app */;
+			productReference = 7E77C05F1B11170C00439510 /* Camera app.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7E77C0731B11170C00439510 /* iosFundementtalsTests */ = {
+		7E77C0731B11170C00439510 /* Camera appTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E77C0811B11170C00439510 /* Build configuration list for PBXNativeTarget "iosFundementtalsTests" */;
+			buildConfigurationList = 7E77C0811B11170C00439510 /* Build configuration list for PBXNativeTarget "Camera appTests" */;
 			buildPhases = (
 				7E77C0701B11170C00439510 /* Sources */,
 				7E77C0711B11170C00439510 /* Frameworks */,
@@ -145,9 +145,9 @@
 			dependencies = (
 				7E77C0761B11170C00439510 /* PBXTargetDependency */,
 			);
-			name = iosFundementtalsTests;
+			name = "Camera appTests";
 			productName = iosFundementtalsTests;
-			productReference = 7E77C0741B11170C00439510 /* iosFundementtalsTests.xctest */;
+			productReference = 7E77C0741B11170C00439510 /* Camera appTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E77C05A1B11170C00439510 /* Build configuration list for PBXProject "iosFundementtals" */;
+			buildConfigurationList = 7E77C05A1B11170C00439510 /* Build configuration list for PBXProject "Camera app" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +181,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E77C05E1B11170C00439510 /* iosFundementtals */,
-				7E77C0731B11170C00439510 /* iosFundementtalsTests */,
+				7E77C05E1B11170C00439510 /* Camera app */,
+				7E77C0731B11170C00439510 /* Camera appTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 /* Begin PBXTargetDependency section */
 		7E77C0761B11170C00439510 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7E77C05E1B11170C00439510 /* iosFundementtals */;
+			target = 7E77C05E1B11170C00439510 /* Camera app */;
 			targetProxy = 7E77C0751B11170C00439510 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -344,7 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iosFundementtals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Camera app";
 			};
 			name = Debug;
 		};
@@ -354,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iosFundementtals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Camera app";
 			};
 			name = Release;
 		};
@@ -372,7 +372,7 @@
 				);
 				INFOPLIST_FILE = iosFundementtalsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Camera appTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosFundementtals.app/iosFundementtals";
 			};
 			name = Debug;
@@ -387,7 +387,7 @@
 				);
 				INFOPLIST_FILE = iosFundementtalsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Camera appTests";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iosFundementtals.app/iosFundementtals";
 			};
 			name = Release;
@@ -395,7 +395,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E77C05A1B11170C00439510 /* Build configuration list for PBXProject "iosFundementtals" */ = {
+		7E77C05A1B11170C00439510 /* Build configuration list for PBXProject "Camera app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E77C07C1B11170C00439510 /* Debug */,
@@ -404,7 +404,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E77C07E1B11170C00439510 /* Build configuration list for PBXNativeTarget "iosFundementtals" */ = {
+		7E77C07E1B11170C00439510 /* Build configuration list for PBXNativeTarget "Camera app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E77C07F1B11170C00439510 /* Debug */,
@@ -412,7 +412,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		7E77C0811B11170C00439510 /* Build configuration list for PBXNativeTarget "iosFundementtalsTests" */ = {
+		7E77C0811B11170C00439510 /* Build configuration list for PBXNativeTarget "Camera appTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E77C0821B11170C00439510 /* Debug */,
