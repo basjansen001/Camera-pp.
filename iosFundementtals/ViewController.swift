@@ -17,7 +17,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     super.viewDidLoad()
   }
 	
-  // Use camera action
   @IBAction func useCamera(sender: AnyObject) {
     let picker = UIImagePickerController()
 		
@@ -36,7 +35,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
      }
   }
 	
-  // Action openPhotoLibraryy
   @IBAction func openPhotoLibrary(sender: AnyObject) {
     let picker = UIImagePickerController()
 		
